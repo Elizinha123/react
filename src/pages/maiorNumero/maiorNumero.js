@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function Index() {
 
- const [numeros, setNumeros] = useState ({});
+ const [numeros, setNumeros] = useState ([]);
  const [numero, setNumero] = useState(0);
  const[resposta, setResposta] = useState('');
 
